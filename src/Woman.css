@@ -1,0 +1,102 @@
+.Help_btn {
+  outline: none;
+  font-weight: bold;
+  padding: 100px 70px !important;
+  letter-spacing: 2px !important;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2.2em;
+  color: hsla(350, 0%, 100%, 1);
+  text-shadow: -1px -1px 1px hsla(350, 0%, 0%, 0.7),
+    1px 1px 1px hsla(350, 0%, 100%, 0.3);
+  display: block;
+  margin: 2em auto;
+  cursor: pointer;
+  background-color: hsla(350, 80%, 10%, 1);
+  background-image: linear-gradient(
+    273deg,
+    hsla(350, 80%, 60%, 1) 30%,
+    hsla(350, 80%, 50%, 1) 40%
+  );
+  border: none;
+  box-shadow: inset 0px 0px 1px 1px hsla(350, 80%, 30%, 0.9),
+    inset 0px 0px 2px 3px hsla(350, 80%, 50%, 0.9),
+    inset 1px 1px 1px 4px hsla(350, 80%, 100%, 0.8),
+    inset 0px 0px 2px 7px hsla(350, 80%, 60%, 0.8),
+    inset 0px 0px 4px 10px hsla(350, 80%, 50%, 0.9),
+    8px 10px 2px 6px hsla(350, 80%, 20%, 0.55),
+    0px 0px 3px 2px hsla(350, 80%, 40%, 0.9),
+    0px 0px 2px 6px hsla(350, 80%, 50%, 0.9),
+    /*0px 0px 2px 3px hsla(350,80%,60%,0.9),*/ -1px -1px 1px 6px
+      hsla(350, 80%, 100%, 0.9),
+    /*0px 0px 2px 8px hsla(350,80%,60%,0.9),*/ 0px 0px 2px 11px
+      hsla(350, 80%, 50%, 0.9),
+    0px 0px 1px 12px hsla(350, 80%, 40%, 0.9),
+    1px 3px 14px 14px hsla(350, 80%, 0%, 0.4);
+}
+.Help_btn:active {
+  color: hsla(350, 0%, 85%, 1);
+  background-image: linear-gradient(
+    273deg,
+    hsla(350, 80%, 50%, 1) 50%,
+    hsla(350, 80%, 55%, 1) 60%
+  );
+  box-shadow: inset 3px 4px 3px 2px hsla(350, 80%, 20%, 0.55),
+    inset 0px 0px 1px 1px hsla(350, 80%, 30%, 0.9),
+    inset -1px -1px 2px 3px hsla(350, 80%, 50%, 0.9),
+    inset -2px -2px 1px 3px hsla(350, 80%, 100%, 0.8),
+    inset 0px 0px 2px 7px hsla(350, 80%, 60%, 0.8),
+    inset 0px 0px 3px 10px hsla(350, 80%, 50%, 0.9),
+    0px 0px 3px 2px hsla(350, 80%, 40%, 0.9),
+    0px 0px 2px 6px hsla(350, 80%, 50%, 0.9),
+    /*0px 0px 2px 3px hsla(350,80%,60%,0.9),*/ -1px -1px 1px 6px
+      hsla(350, 80%, 100%, 0.9),
+    /*0px 0px 2px 8px hsla(350,80%,60%,0.9),*/ 0px 0px 2px 11px
+      hsla(350, 80%, 50%, 0.9),
+    0px 0px 1px 12px hsla(350, 80%, 40%, 0.9),
+    1px 3px 14px 14px hsla(350, 80%, 0%, 0.4);
+}
+.Help_btn:hover {
+  color: white;
+  opacity: 0.9 !important;
+  outline-offset: 4px;
+}
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropbtn {
+  background-color: transparent;
+}
